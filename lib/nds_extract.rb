@@ -35,7 +35,7 @@ def directors_totals(nds)
       
     name_print = nds[i][:name]
     inner_index = 0
-        
+    binding.pry    
     while inner_index < nds[i][:movies].length do
         
       total = 0   
