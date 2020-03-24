@@ -30,6 +30,7 @@ def directors_totals(nds)
   
   result = {}
   i = 0 
+  total = 0
   
   while i < nds.length do
       
@@ -38,7 +39,6 @@ def directors_totals(nds)
     binding.pry    
     while inner_index < nds[i][:movies].length do
         
-      total = 0   
       total += nds[i][:movies][inner_index][:worldwide_gross]
       inner_index += 1 
       
