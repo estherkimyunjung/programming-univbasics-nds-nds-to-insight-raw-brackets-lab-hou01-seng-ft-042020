@@ -43,7 +43,7 @@ def directors_totals(nds)
       inner_index += 1 
       
     end
-    result[name_print = total
+    result[name_print] = total
     i += 1
   end
        
