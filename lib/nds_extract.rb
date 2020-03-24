@@ -30,13 +30,14 @@ def directors_totals(nds)
   
   result = {}
   i = 0 
-  total = 0
+  
   
   while i < nds.length do
       
     name_print = nds[i][:name]
     inner_index = 0
     # binding.pry    
+    total = 0
     while inner_index < nds[i][:movies].length do
         
       total += nds[i][:movies][inner_index][:worldwide_gross]
